@@ -1,9 +1,9 @@
 import Keycloak from 'keycloak-js'
 
 const keycloak = new Keycloak({
-  realm: "grit",
-  url: "http://103.140.90.146:8080",
-  clientId: "testlocalhost",
-})
+     realm: "DUKCAPIL-Raihan",
+     url: "https://redhat-sso-bkkbn.apps.tkp.platform.lintasarta.net",
+     clientId: "BPJS-Raihan"
+  })
 
 export default keycloak
